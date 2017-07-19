@@ -13,6 +13,7 @@ export class CribListingComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    // make an http request
   }
 
 }
