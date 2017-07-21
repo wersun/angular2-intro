@@ -13,6 +13,8 @@ export class CribListingComponent implements OnInit {
 
   cribs: Array<any>;
   error: string;
+  sortField: string = 'price';
+  sortDirection: string = 'asc';
   sortFields: Array<string> = [
     'address',
     'area',
